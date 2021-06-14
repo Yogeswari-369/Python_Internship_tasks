@@ -1,0 +1,51 @@
+Python 3.9.4 (tags/v3.9.4:1f2e308, Apr  6 2021, 13:40:21) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #print a value
+>>> print("30 days 30 hour Challenge")
+30 days 30 hour Challenge
+>>> #Assigning a String
+>>> hours="thirty"
+>>> print(hours)
+thirty
+>>> #String Indexing
+>>> print(hours[0]0
+      
+SyntaxError: invalid syntax
+>>> print(hours[0])
+t
+>>> a="internship"
+>>> print(a[-1])
+p
+>>> print(a[2:4])
+te
+>>> print(a[::-1])
+pihsnretni
+>>> #length of a string
+>>> print(len(a))
+10
+>>> #Lower case
+>>> print(a.lower())
+internship
+>>> #Upper case
+>>> print(a.upper())
+INTERNSHIP
+>>> #Joining two strings
+>>> a="Try Hard to reach"
+>>> b="your goals"
+>>> print(a+" "+b)
+Try Hard to reach your goals
+>>> print(b.title())
+Your Goals
+>>> print(b.capitalize())
+Your goals
+>>> print(b.isdigit())
+False
+>>> print(b.islower())
+True
+>>> print(b.isupper())
+False
+>>> print(b.isspace())
+False
+>>> print(b.istitle())
+False
+>>> 
