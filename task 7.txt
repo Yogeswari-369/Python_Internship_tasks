@@ -1,0 +1,18 @@
+def add(a,b):
+    print("Addition of two numbers is ",a+b)
+    print("Subtractiona of two numbers is",a-b)
+    print("Multiplication of two numbers is",a*b)
+    print("Division of two numbers is",a%b)
+a=int(input("Enter the value of a"))
+b=int(input("Enter the value of b"))
+add(a,b)
+
+
+def covid(a,b):
+    name=a
+    temp=b
+    print("Name:",name)
+    print("Temperature:",temp)
+a=input("Enter name")
+b=98
+covid(a,b)
